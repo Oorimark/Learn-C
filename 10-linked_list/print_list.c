@@ -1,15 +1,22 @@
+#include "./prototype/prototype.h"
 #include <stdio.h>
-#include "prototype.h"
+
 /**
- * print_list - prints items in a linked list
- * @h: header of the list
+ * print_list - prints items in the list
+ * @len: lenght of the list 
  * 
  * Return: void
  */
-void print_list(node h)
+void print_list(nodeptr h)
 {
-    while (h->next !== NULL)
+    nodeptr temp;
+    temp = h;
+    printf("The items in the list are: ");
+    puts("\n");
+    while (temp != NULL)
     {
-        printf("%d", h->value);
+        printf("Item %d", (int) temp->value);
+        puts("\n");
+        temp = temp->next;
     }
 }
