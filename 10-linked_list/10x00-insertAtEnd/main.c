@@ -30,4 +30,7 @@ int main(int argc, char * argv[])
             }
     }
     print_list(first);
+    first = reverse(first);
+    printf("Reversed List: ");
+    print_list(first);
 }
