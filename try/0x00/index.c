@@ -19,3 +19,8 @@ int main(void)
     }
     return (0);
 }
+
+/*
+ atoi - C function from the string.h lib
+ description: converts string to integer
+*/

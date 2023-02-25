@@ -23,7 +23,7 @@ int main(void){
     return (0);
 }
 
-char functionCaller()
+void functionCaller()
 {
     static int counter = 0;
      printf("Function is called %d \n", counter++);

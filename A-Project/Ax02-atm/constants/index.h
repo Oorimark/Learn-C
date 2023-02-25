@@ -1,2 +1,2 @@
-const int DRAW_LINE_LENGTH = 44;
+const int DRAW_LINE_LENGTH = 104;
 // #define DRAW_LINE_LENGTH 24;
